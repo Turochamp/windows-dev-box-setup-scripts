@@ -26,13 +26,16 @@ executeScript "FileExplorerSettings.ps1";
 executeScript "SystemConfiguration.ps1";
 executeScript "CommonDevTools.ps1";
 executeScript "RemoveDefaultApps.ps1";
+
+#--- Tools ---
+executeScript "Browsers.ps1";
+executeScript "SpringBootTools.ps1"
+executeScript "MyVmDevTools.ps1"
+
+#--- Setting up Windows (may not work inside Boxstarter) ---
 executeScript "HyperV.ps1";
 executeScript "Docker.ps1";
 executeScript "WSL.ps1";
-executeScript "Browsers.ps1";
-executeScript "JdkAndTools.ps1"
-executeScript "JetBrainsTools.ps1"
-executeScript "MyVmDevTools.ps1"
 
 #--- Tools ---
 code --install-extension msjsdiag.debugger-for-chrome
