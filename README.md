@@ -21,3 +21,7 @@ To run a recipe script, click a link in the table below from your target machine
 **Notes:**  
 1. When the script finishes you will only have a root user with a blank password. You should  manually create a non-root user via `$ sudo adduser [USERNAME] sudo` 
 with a non-blank password. Use this user going forward. For more info on WSL please refer to the [documentation](https://docs.microsoft.com/en-us/windows/wsl/about).
+
+# Issues
+
+1. Add Trello app  
