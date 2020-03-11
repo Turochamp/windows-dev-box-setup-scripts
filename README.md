@@ -24,4 +24,5 @@ with a non-blank password. Use this user going forward. For more info on WSL ple
 
 # Issues
 
-1. Add Trello app  
+1. Add Trello app
+2. Add VS Community and Git-Win (https://git-scm.com/download/win)?
